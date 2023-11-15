@@ -14,10 +14,10 @@ export default function Home() {
             </div>
             <div className="flex">
               <ul className="flex font-Inter">
-                <li className="mr-14 ">Construction</li>
-                <li className="mr-14 ">General plan of the townhouse </li>
-                <li className="text-white mr-14">Stages of construction</li>
-                <li className="text-white mr-14">Free houses</li>
+                <li className="font-serif mr-14 ">Construction</li>
+                <li className="font-serif mr-14 ">General plan of the townhouse </li>
+                <li className="font-serif text-white mr-14">Stages of construction</li>
+                <li className="font-serif text-white mr-14">Free houses</li>
                 <li>
                   <button className="bg-white px-5 py-1 rounded-2xl uppercase">
                     order
@@ -138,7 +138,7 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <div></div>  
+          <div></div>
         </footer>
       </section>
     </main>
