@@ -45,7 +45,7 @@ const collectionInfo: {
     {
       id: 2,
       title: "Image 2",
-      imageUrl: "/banner1.jpeg",
+      imageUrl: "/banner2.jpeg",
       description: "Description 2",
       price: 89.99,
       count: 0,
@@ -74,7 +74,7 @@ const collectionInfo: {
       id: 3,
       title: "Image 3",
       count: 0,
-      imageUrl: "/banner1.jpeg",
+      imageUrl: "/banner3.jpeg",
       description: "Description 3",
       price: 69.99,
       heading: "Collection 3",
@@ -103,7 +103,7 @@ const collectionInfo: {
       title: "Image 4",
       count: 0,
           price: 49.99,
-          imageUrl: "/banner1.jpeg",
+          imageUrl: "/banner4.jpeg",
       description: "Description 4",
       heading: "Collection 4",
       collectionImages: [
