@@ -129,7 +129,7 @@ const Page = () => {
                   type="button"
                   onClick={() => setPopup(!popup)}
                 >
-                  Calculate interest
+                   Calculate interest
                 </button>
 
                 <div
