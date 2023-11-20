@@ -129,7 +129,7 @@ const Page = () => {
                   type="button"
                   onClick={() => setPopup(!popup)}
                 >
-                  Toggle modal
+                  Calculate interest
                 </button>
 
                 <div
