@@ -5,6 +5,7 @@ import Div from "../SubComponent/Div";
 import { SET_BANNERCARD_DATA } from "@/redux/actions/bannerCardAcrion";
 import { useDispatch, useSelector } from "react-redux";
 import Slider from "react-slick";
+import Link from "next/link";
 
 function HouseListing() {
   const dispatch = useDispatch();
@@ -66,9 +67,19 @@ function HouseListing() {
               <Div className="h-full w-full">
                 <Div className="flex justify-between px-1">
                   <h3 className="text-lg font-bold ">{e.heading}</h3>
-                  <h3 className="text-lg font-bold text-gray-800 ">
+                  <div className="flex gap-6 mr-1">
+                    <Link href={`/homepage/${e.id}/rent`}>
+                      <p className="mt-1 bg-green-300 px-3 text-slate-700 rounded-full">
+                        Rent
+                      </p>
+                    </Link>
+                    <Link href={`/homepage/${e.id}/buy`}>
+                      <p className="mt-1 bg-red-400 px-3 rounded-full">Buy</p>
+                    </Link>
+                  </div>
+                  {/* <h3 className="text-lg font-bold text-gray-800 ">
                     ${e.price}
-                  </h3>
+                  </h3> */}
                 </Div>
                 <p className="font-serif text-base py-2 px-1">
                   Description of rooms comes here which give info of what what

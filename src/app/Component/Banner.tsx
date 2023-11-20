@@ -29,7 +29,7 @@ function Banner() {
         <Slider {...settings}>
           {bannerData?.map((item: any) => (
             <Div key={item.id} className="outline-none focus:outline-none">
-              <h2>{item.title}</h2>
+              {/* <h2>{item.title}</h2> */}
               <img
                 src={item.imageUrl}
                 alt={item.title}
